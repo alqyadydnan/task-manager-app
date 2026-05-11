@@ -10,9 +10,17 @@ version = 1.0
 orientation = portrait
 
 android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE
-android.api = 31
+
+# 🔥 أهم التغييرات - إصدارات مستقرة ومجربة
+android.api = 30
 android.minapi = 21
 android.ndk = 23b
+android.sdk = 30
+android.ndk_api = 21
+
+# إصدار build-tools الصحيح
+android.build_tools = 30.0.3
+
 android.archs = arm64-v8a, armeabi-v7a
 
 source.dir = .
